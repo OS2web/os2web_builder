@@ -1,0 +1,32 @@
+langcode: da
+status: true
+dependencies:
+  module:
+    - os2web_paragraphs
+id: os2web_builder_paragraphs
+label: 'OS2Web paragraphs - base'
+description: ''
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - field.storage.paragraph.field_os2web_bg_color
+  - field.storage.paragraph.field_os2web_column_1
+  - field.storage.paragraph.field_os2web_column_2
+  - field.storage.paragraph.field_os2web_column_3
+  - field.storage.paragraph.field_os2web_con_type
+  - field.storage.paragraph.field_os2web_paragraphs
+  - config_split.config_split.os2web_paragraphs
+  - 'os2web_wrapper*'
+  - '*os2web_wrapper'
+  - '*os2web_wrapper*'
+  - 'os2web_2_columns*'
+  - '*os2web_2_columns'
+  - '*os2web_2_columns*'
+  - 'os2web_3_columns*'
+  - '*os2web_3_columns'
+  - '*os2web_3_columns*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0

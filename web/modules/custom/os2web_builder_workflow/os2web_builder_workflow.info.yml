@@ -1,0 +1,7 @@
+name: OS2Web builder workflow
+type: module
+description: Used when adding new functionality with predefined configuration to the OS2Web.
+core: 8.x
+package: OS2Web
+dependencies:
+  - config_split
