@@ -9,6 +9,10 @@ folder: modules/custom/os2web_pagebuilder/config/optional
 module: {  }
 theme: {  }
 blacklist:
+  - block.block.paragraph_banner
+  - block.block.paragraph_sidebar_first
+  - block.block.paragraph_sidebar_second
+  - block.block.paragraph_wide
   - 'os2web_page*'
   - '*os2web_page'
   - '*os2web_page*'
