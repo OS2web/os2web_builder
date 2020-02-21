@@ -1,19 +1,18 @@
-langcode: da
 status: true
 dependencies:
   module:
     - os2web_simple_text_paragraph
 id: os2web_builder_simple_text_paragraph
-label: 'OS2Web Simple text paragraphs'
+label: 'OS2Web simple text paragraph'
 description: ''
-folder: modules/custom/os2web_paragraphs/modules/os2web_simple_text_paragraph/config/optional
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/modules/os2web_simple_text_paragraph/config/optional
 module: {  }
 theme: {  }
 blacklist:
-  - 'os2web_simple_text_paragraph*'
-  - '*os2web_simple_text_paragraph'
-  - '*os2web_simple_text_paragraph*'
+  - 'os2web_simple_text*'
+  - '*os2web_simple_text'
+  - '*os2web_simple_text*'
 graylist: {  }
 graylist_dependents: false
 graylist_skip_equal: false
-weight: 1
+weight: 0

@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - os2web_box_paragraph
+id: os2web_builder_box_paragraph
+label: 'OS2Web box paragraphs'
+description: ''
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/modules/os2web_box_paragraph/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - 'os2web_box*'
+  - '*os2web_box'
+  - '*os2web_box*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0

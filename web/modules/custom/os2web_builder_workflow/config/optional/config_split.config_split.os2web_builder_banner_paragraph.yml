@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - os2web_banner_paragraph
+id: os2web_builder_banner_paragraph
+label: 'OS2Web banner paragraph'
+description: ''
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/modules/os2web_banner_paragraph/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - 'os2web_banner*'
+  - '*os2web_banner'
+  - '*os2web_banner*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0
