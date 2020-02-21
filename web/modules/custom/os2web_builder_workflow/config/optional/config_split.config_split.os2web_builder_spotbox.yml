@@ -2,17 +2,17 @@ langcode: da
 status: true
 dependencies:
   module:
-    - os2web_contact
-id: os2web_builder_contact
-label: 'OS2web Contact'
+    - os2web_spotbox
+id: os2web_builder_spotbox
+label: 'OS2web Spotbox'
 description: ''
-folder: modules/custom/os2web_contact/config/optional
+folder: modules/custom/os2web_spotbox/config/optional
 module: {  }
 theme: {  }
 blacklist:
-  - 'os2web_contact*'
-  - '*os2web_contact'
-  - '*os2web_contact*'
+  - 'os2web_spotbox*'
+  - '*os2web_spotbox'
+  - '*os2web_spotbox*'
 graylist: {  }
 graylist_dependents: false
 graylist_skip_equal: false
