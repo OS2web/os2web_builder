@@ -28,11 +28,15 @@ Command that removes `uuid` and `core` keys from files inside directiry your
 will specify as parameter. You will find this command userful if you have
 submodules.
 
-To get your files split to `./web/modules/custom/[your-module]/config` folder,
-you should have proper config_split config activated to this project. See 
+See command script `.docksal/commands/clean-config` 
 
-In case there is no split config for your project, feel free to add it and
-commit to project. So other developers could use it during development also.
+### `fin bwrs` command (builder workflow reset)
+
+Command will reinstall `os2web_builder_workflow` module. It could be usefull
+if you added new config split settings rule or enabled module that use existing
+rules.
+
+See command script `.docksal/commands/bwrs` 
 
 ### `fin rebuild` command
 

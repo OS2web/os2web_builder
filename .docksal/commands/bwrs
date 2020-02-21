@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+fin drush pmu os2web_builder_workflow -y
+fin drush en os2web_builder_workflow -y
