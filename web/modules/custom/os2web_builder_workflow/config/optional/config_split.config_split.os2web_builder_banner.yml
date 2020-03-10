@@ -2,17 +2,17 @@ langcode: da
 status: true
 dependencies:
   module:
-    - os2web_spotbox
-id: os2web_builder_spotbox
-label: 'OS2web Spotbox'
+    - os2web_banner
+id: os2web_builder_banner
+label: 'OS2web banner'
 description: ''
-folder: modules/custom/os2web_spotbox/config/optional
+folder: modules/custom/os2web_banner/config/optional
 module: {  }
 theme: {  }
 blacklist:
-  - 'os2web_spotbox*'
-  - '*os2web_spotbox'
-  - '*os2web_spotbox*'
+  - 'os2web_banner*'
+  - '*os2web_banner'
+  - '*os2web_banner*'
   - 'media.type.image'
 graylist: {  }
 graylist_dependents: false
