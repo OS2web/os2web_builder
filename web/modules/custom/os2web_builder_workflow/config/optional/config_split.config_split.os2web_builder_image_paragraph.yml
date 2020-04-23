@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - os2web_image_paragraph
+id: os2web_builder_image_paragraph
+label: 'OS2Web image paragraphs'
+description: ''
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/modules/os2web_image_paragraph/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - 'os2web_image*'
+  - '*os2web_image'
+  - '*os2web_image*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0
