@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 fin drush si minimal --db-url=mysql://root:root@db/default --account-pass=admin -y -vvv
-fin drush en -y admin_toolbar
+fin drush en -y admin_toolbar admin_toolbar_tools
 fin drush theme:enable seven
 fin drush theme:enable bartik
 fin drush config-set system.theme default bartik -y
