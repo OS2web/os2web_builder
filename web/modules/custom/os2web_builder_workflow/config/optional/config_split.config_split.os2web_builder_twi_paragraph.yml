@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - os2web_twi_paragraph
+id: os2web_builder_twi_paragraph
+label: 'OS2Web text with image paragraph'
+description: ''
+folder: modules/custom/os2web_pagebuilder/modules/os2web_paragraphs/modules/os2web_twi_paragraph/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - 'os2web_twi*'
+  - '*os2web_twi'
+  - '*os2web_twi*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0
